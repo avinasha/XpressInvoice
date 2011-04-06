@@ -1,0 +1,100 @@
+ body{
+	background:#f4f4f4;
+	font: 70%/1.5em Verdana, Tahoma, arial, sans-serif;
+ }
+ 
+ .modal {
+	/* growing background image */
+	background:url(../img/overlay/whitelogin.png) no-repeat;
+	
+	/* 
+		width after the growing animation finishes
+		height is automatically calculated
+	*/
+	width:492px;	
+	height:263px;
+	/* a little styling */	
+	font-size:11px;
+	position:absolute;
+	left:50%;
+	margin-left:-240px;
+	margin-top:100px;
+	
+}
+ 
+.modal .header{
+	margin:20px 0px 0px 20px;
+	padding:5px 0px 5px 10px;
+ }
+ 
+.modal .header h2{
+	font-size:200%;
+	font-weight:bold;
+	text-align:left;
+	color:#144282;
+ }
+
+.content{
+	margin:0px 20px 20px 20px;
+	padding-left:10px;
+}
+
+.field{
+	margin-bottom:10px;
+}
+
+.field label{
+	font-size:130%;
+	font-weight:bold;
+	width:100px;
+	float:left;
+	text-align:right;
+	margin-right:5px;
+	padding:5px;
+}
+
+.field input{
+	padding:5px;
+	width:250px;
+	font-size:130%;
+	font-weight:bold;
+	color:#144282;
+	background:transparent url(../img/bottombg.png) repeat-x;
+}
+
+.button{
+	margin-left:15px;
+}
+
+a{
+	color:#144282;
+	font-size:120%;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}	
+
+.big{
+	font-size:150%;
+	font-weight:bold;
+}
+
+#flashMessage{
+	width:400px;
+	margin:0px 0px 5px 46px;
+	padding:4px;
+	text-align:center;
+	background:#faffbd;
+	font-weight:bold;
+}
+
+#authMessage{
+	width:400px;
+	margin:0px 10px 5px 10px;
+	padding:4px;
+	text-align:center;
+	background:#faffbd;
+	font-weight:bold;
+}

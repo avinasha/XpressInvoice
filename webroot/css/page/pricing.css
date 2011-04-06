@@ -1,0 +1,103 @@
+#plans-pricing .pricing{
+	border-bottom-left-radius: 15px 15px;
+	border-bottom-right-radius: 15px 15px;
+	border-top-left-radius: 15px 15px;
+	border-top-right-radius: 15px 15px;
+	background:#f7f7f7;
+	margin-top:10px;
+	padding:10px 0px 10px 0px;
+}
+#plans-pricing .img{
+	float:left;
+	margin-right:5px;
+}
+
+#plans-pricing .pricing .head{
+	margin:10px;
+}
+
+#plans-pricing .pricing h1 {
+	font-size: 36px;	
+	font-weight: normal;
+	color: #3B1416;
+	line-height:50px;
+	margin-bottom:5px;
+}
+#plans-pricing .pricing h2 {
+	font-size: 24px;
+	color: #3B1416;
+	line-height:30px;
+	margin-bottom:5px;
+}
+#plans-pricing .pricing h3 {
+	font-size:14px;
+	font-weight:bold;
+	color: #3B1416; 
+	line-height:18px;
+	margin-bottom:20px;
+}
+#plans-pricing .pricing p{
+	clear:both;
+	text-align:justify;
+	font-size:12px;
+}
+#plans-pricing .pricing .featurehead{
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	width:246px;
+}
+#plans-pricing .pricing .feature{
+	text-align:right;
+	font-size:14px;
+	font-weight:bold;
+	padding:5px 0px 5px 0px;
+	margin:0px 5px 0px 5px;
+	width:246px;
+}
+#plans-pricing .pricing .result{
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	background:#ffffff;
+	padding:5px 0px 9px 0px;
+	margin:0px 5px 0px 5px;
+}
+#plans-pricing .pricing .num{
+	font-size:18px;
+	font-weight:bold;
+}
+#plans-pricing .pricing .heading{
+	-webkit-box-shadow: rgba(48, 48, 48, 0.496094) 0px 1px 3px;
+	background:#c70000;
+	text-shadow: rgba(0, 0, 0, 0.597656) 0px 1px 0px;
+	text-align:center;
+	border-bottom-left-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+	border-top-left-radius: 5px 5px;
+	border-top-right-radius: 5px 5px;
+	color:#ffffff;
+	font-size:16px;
+	font-weight:bold;
+	margin:0px 5px 0px 5px;
+}
+#plans-pricing .pricing .signup {
+	width:960px;
+	padding:5px;
+	text-align:center;
+	background:#faffbd;
+	font-weight:bold;
+	margin:10px 0px 10px 5px;
+}
+#plans-pricing .pricing .signup a{
+	color:#555;
+	font-size:18px;
+	font-weight:bold;
+}
+#plans-pricing .pricing th{
+	width:181px;
+}
+#plans-pricing .pricing td{
+	width:181px;
+	border-bottom:1px #555 solid;
+}

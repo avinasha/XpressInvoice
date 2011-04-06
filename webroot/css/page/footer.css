@@ -1,0 +1,45 @@
+#get-in-touch{
+	background:#000000;
+	color:#ffffff;
+	text-align:left;
+}
+#get-in-touch .aright{
+	text-align:right;
+	font-weight:bold;
+}
+#get-in-touch .contact_title{
+	color:#ffffff;	
+	margin-top:2px;
+	font-size:24px;
+	font-weight: normal;
+	text-align:left;
+}
+
+#contactform{
+padding:10px 0px 10px 0px;
+}
+
+#get-in-touch .contact_field {
+	color:#ffffff;
+	margin:5px 0px 5px 0px;
+}
+#get-in-touch .contact_field .label{
+	width:100%;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#get-in-touch .contact_field .field{
+	width:100%;
+	padding:2px;
+	height:50px;
+}
+#get-in-touch .contact_field .color{
+	color:#ffffff;
+	cursor:pointer;
+	text-align:left;
+}
+
+#get-in-touch .button{
+	text-align:left;
+}

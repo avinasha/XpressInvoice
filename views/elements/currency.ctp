@@ -1,0 +1,11 @@
+<?php $currency=array('Canada-Dollars,CAD','United Kingdom-Pounds,GBP','Germany-Deutsche Marks,DEM','France-Francs,FRF','Japan-Yen,JPY','Netherlands-Guilders,NLG','Italy-Lira,ITL','Switzerland-Francs,CHF','Algeria-Dinars,DZD','Argentina-Pesos,ARP','Australia-Dollars,AUD','Austria-Schillings,ATS','Bahamas-Dollars,BSD','Barbados-Dollars,BBD','Belgium-Francs,BEF','Bermuda-Dollars,BMD','Brazil-Real,BRR','Bulgaria-Lev,BGL','Canada-Dollars,CAD','Chile-Pesos,CLP','China-Yuan Renmimbi,CNY','Cyprus-Pounds,CYP','Czech-Republic Koruna,CSK','Denmark-Kroner,DKK','Dutch-Guilders,NLG','Eastern Caribbean-Dollars,XCD','Egypt-Pounds,EGP','Europe-Euro,EUR','Fiji-Dollars,FJD','Finland-Markka,FIM','France-Francs,FRF','Germany-Deutsche Marks,DEM','Gold-Ounces,XAU','Greece-Drachmas,GRD','Hong Kong-Dollars,HKD','Hungary-Forint,HUF','Iceland-Krona,ISK','India-Rupees,INR','Indonesia-Rupiah,IDR','Ireland-Punt,IEP','Israel-New Shekels,ILS','Jamaica-Dollars,JMD','Japan-Yen,JPY','Jordan-Dinar,JOD','Lebanon-Pounds,LBP','Luxembourg-Francs,LUF','Malaysia-Ringgit,MYR','Mexico-Pesos,MXP','Netherlands-Guilders,NLG','New Zealand-Dollars,NZD','Norway-Kroner,NOK','Pakistan-Rupees,PKR','Palladium-Ounces,XPD','Philippines-Pesos,PHP','Platinum-Ounces,XPT','Poland-Zloty,PLZ','Portugal-Escudo,PTE','Romania-Leu,ROL','Russia-Rubles,RUR','Saudi Arabia-Riyal,SAR','Silver-Ounces,XAG','Singapore-Dollars,SGD','Slovakia-Koruna,SKK','South Africa-Rand,ZAR','South Korea-Won,KRW','Spain-Pesetas,ESP','Sudan-Dinar,SDD','Sweden-Krona,SEK','Switzerland-Francs,CHF','Taiwan-Dollars,TWD','Thailand-Baht,THB','Trinidad and Tobago-Dollars,TTD','Turkey-Lira,TRL','United Kingdom-Pounds,GBP','United States-Dollars,USD','Venezuela-Bolivar,VEB','Zambia-Kwacha,ZMK','Eastern Caribbean-Dollars,XCD');
+echo '<select name="'.$name.'">';
+foreach($currency as $c){
+	$ex=explode(',',$c);
+	$s1='<option value="'.$c.'" ';
+	if($ex[1]==$current) $s2='selected="selected"'; else $s2='';
+	$s3=' >'.$c.'</option>';
+	echo $s1.$s2.$s3;
+}
+echo '</select>';
+?>
